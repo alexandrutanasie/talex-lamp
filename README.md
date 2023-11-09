@@ -8,7 +8,8 @@ apt update
 apt install apache2
 service apache2 start
 ```
-# allow the firewall permissions (if you have firewall activated):
+# allow the firewall permissions
+(if you have firewall activated)
 ```bash
 ufw allow in "Apache Full"
 ufw allow 80/tcp
@@ -21,7 +22,7 @@ apt update
 apt install mysql-server
 service mysql start
 ```
-# change roor password
+# change root password
 ```bash
 sudo mysql
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
