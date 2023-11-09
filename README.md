@@ -29,8 +29,9 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'p
 sudo mysql_secure_installation
 ```
 #find the ip
+```bash
 hostname -I
-
+```
 #Installing PHP 7.4 with Apache
 ```bash
 apt update
