@@ -12,7 +12,7 @@ apt install mysql-server
 service mysql start
 
 
-#Installing PHP 7.4 with Apache
+#Installing PHP with Apache
 apt update
 apt install php libapache2-mod-php
 apt install openssl php-common php-bcmath php-curl php-json php-mbstring php-mysql php-tokenizer php-xml php-zip php-mbstring php-dom php-cli php-gd php-xml php-json php-mcrypt
