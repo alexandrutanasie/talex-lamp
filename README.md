@@ -45,5 +45,5 @@ apt install phpmyadmin
 phpenmod mbstring
 service apache2 restart
 # to the /etc/apache2/apache2.conf file and restarting the service.
+#Include /etc/phpmyadmin/apache.conf
 ```
-Include /etc/phpmyadmin/apache.conf
